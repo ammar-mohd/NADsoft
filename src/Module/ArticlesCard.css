@@ -1,0 +1,27 @@
+.article-card {
+  display: flex;
+  min-height: 100px;
+  background-color: #e0e0e0;
+  width: calc(100% - 200px);
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: #000;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 30px;
+}
+
+.article-label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.article-description {
+  font-size: 14px;
+}
